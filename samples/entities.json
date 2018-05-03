@@ -1,0 +1,10 @@
+{
+	"solidEntities": {
+		"pais": "entities/pais.json",
+		"estado": "entities/estado.json",
+		"receita": "entities/receita.json"
+	},
+	"entityRelationships": {
+		"subreceita": "entityRelationships/subreceita.json"
+	}
+}

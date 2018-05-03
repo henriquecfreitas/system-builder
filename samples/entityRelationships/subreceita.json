@@ -1,0 +1,14 @@
+{
+	"name": "SUBRECEITA",
+	"description": "Subreceita",
+	"entities": [
+		{
+			"name": "RECEITA",
+			"relationshipKey": "ID_RECEITAPAI"
+		},
+		{
+			"name": "RECEITA",
+			"relationshipKey": "ID_SUBRECEITA"
+		}
+	]
+}

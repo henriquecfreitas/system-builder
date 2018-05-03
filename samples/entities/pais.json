@@ -1,0 +1,47 @@
+{
+	"name": "PAIS",
+	"description": "País",
+	"attributes": [
+		{
+			"name": "ID_PAIS",
+			"description": null,
+			"userVisible": false,
+			"isKey": true,
+			"isIdentifier": false,
+			"unique": true,
+			"dataProperties": {
+				"type": "number",
+				"nullable": false,
+				"autoIncrement": true
+			}
+		},
+		{
+			"name": "DS_PAIS",
+			"description": "País",
+			"userVisible": true,
+			"isKey": false,
+			"isIdentifier": "name",
+			"unique": true,
+			"dataProperties": {
+				"type": "text",
+				"nullable": false,
+				"autoIncrement": false,
+				"maxLenght": "100"
+			}
+		},
+		{
+			"name": "AB_PAIS",
+			"description": "Sigla",
+			"userVisible": true,
+			"isKey": false,
+			"isIdentifier": "abbreviation",
+			"unique": true,
+			"dataProperties": {
+				"type": "text",
+				"nullable": false,
+				"autoIncrement": false,
+				"lenght": "3"
+			}
+		}
+	]
+}

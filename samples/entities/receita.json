@@ -1,0 +1,33 @@
+{
+	"name": "RECEITA",
+	"description": "Receita",
+	"attributes": [
+		{
+			"name": "ID_RECEITA",
+			"description": null,
+			"userVisible": false,
+			"isKey": true,
+			"isIdentifier": false,
+			"unique": true,
+			"dataProperties": {
+				"type": "number",
+				"nullable": false,
+				"autoIncrement": true
+			}
+		},
+		{
+			"name": "DS_RECEITA",
+			"description": "Nome",
+			"userVisible": true,
+			"isKey": false,
+			"isIdentifier": "name",
+			"unique": true,
+			"dataProperties": {
+				"type": "text",
+				"nullable": false,
+				"autoIncrement": false,
+				"maxLenght": "200"
+			}
+		}
+	]
+}

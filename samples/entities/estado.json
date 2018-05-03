@@ -1,0 +1,54 @@
+{
+	"name": "ESTADO",
+	"description": "Estado",
+	"attributes": [
+		{
+			"name": "ID_ESTADO",
+			"description": null,
+			"userVisible": false,
+			"isKey": true,
+			"isIdentifier": false,
+			"unique": true,
+			"dataProperties": {
+				"type": "number",
+				"nullable": false,
+				"autoIncrement": true
+			}
+		},
+		{
+			"name": "DS_ESTADO",
+			"description": "Estado",
+			"userVisible": true,
+			"isKey": false,
+			"isIdentifier": "name",
+			"unique": true,
+			"dataProperties": {
+				"type": "text",
+				"nullable": false,
+				"autoIncrement": false,
+				"lenght": "100"
+			}
+		},
+		{
+			"name": "AB_ESTADO",
+			"description": "Sigla",
+			"userVisible": true,
+			"isKey": false,
+			"isIdentifier": "abbreviation",
+			"unique": true,
+			"dataProperties": {
+				"type": "text",
+				"nullable": false,
+				"autoIncrement": false,
+				"lenght": "2"
+			}
+		}
+	],
+	"relationships": [
+		{
+			"name": "PAIS",
+			"relationship": "parent",
+			"required": true
+		}
+	]
+}
